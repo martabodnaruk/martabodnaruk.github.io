@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.page-wrapper {
+  font-family: Georgia;
+  font-size: 14px;
+}
+.personal-info {
+  padding: 20px;
+  background-color: #3f6592;
+}
+.photo {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.img-fluid {
+  object-fit: cover;
+  height: 100%;
+}
+.personal-info-subtitle {
+  color: white;
+  font-weight: bold;
+}
+.personal-data {
+  color: white;
+}
+.personal-info-title {
+  color: white;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.personal-info-list {
+  list-style: none;
+}
+.personal-info-section {
+  margin-bottom: 10px;
+}
+.languague-level {
+  font-weight: lighter;
+  float: right;
+}
+
+.experience {
+  padding: 20px;
+}
+
+.experience-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.institution {
+  font-style: italic;
+}
+.experience-subtitle {
+  display: inline-block;
+  font-weight: bold;
+}
+.experience-section {
+  margin-bottom: 10px;
+}
+hr {
+  margin-bottom: 10px;
+  margin-right: -20px;
+}
+.period {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (min-width: 800px) {
+  .personal-info,
+  .experience {
+    display: inline-block;
+  }
+     .personal-info {
+  width:15%;
+    }
+     .experience {
+  width:85%;
+    }
