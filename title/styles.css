@@ -1,0 +1,31 @@
+
+.title{
+    margin: 120px auto;
+    max-width: 600px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.title::before{
+   content:"";
+   display: block;
+   width: 250px;
+   height: 4px;
+   background-color: black;
+   top: 50%;
+   left: 0;
+   position: absolute;
+}
+.title::after{
+    content:"";
+    display: block;
+    width: 250px;
+    height: 4px;
+    background-color: black;
+    right: 0;
+    top: 50%;
+    position: absolute;
+ }

@@ -1,0 +1,24 @@
+
+.version-1{
+    display: inline-block;
+    border-radius: 50%;
+    height: 156px;
+    width: 156px;
+    background-color: #000E5E;
+    border: 80px solid white;
+    box-shadow: 0px 0px 0px 65px #ffdd00;
+    margin: 100px;
+}
+
+.version-2{
+    display: inline-block;
+    height: 156px;
+    width: 156px;
+    background-color: #000E5E;
+    border: 80px solid white;
+    outline: 65px solid #ffdd00;
+    margin: 100px;
+    border-radius: 50%;
+}
+
+
