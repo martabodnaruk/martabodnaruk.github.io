@@ -10,8 +10,10 @@ img {
 .page-wrapper {
   font-family: Georgia;
   font-size: 14px;
+  margin-top: 0;
 }
 .personal-info {
+  margin: 0;
   padding: 20px;
   background-color: #3f6592;
 }
@@ -28,69 +30,106 @@ img {
   object-fit: cover;
   height: 100%;
 }
-.personal-info-subtitle {
-  color: white;
-  font-weight: bold;
-}
-.personal-data {
-  color: white;
+hr {
+  margin-bottom: 10px;
+  margin-right: -20px;
 }
 .personal-info-title {
   color: white;
   font-weight: bolder;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-size: 18px;
+}
+.personal-info-section {
+  margin-bottom: 15px;
+}
+.personal-info-subtitle {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .personal-info-list {
   list-style: none;
 }
-.personal-info-section {
-  margin-bottom: 10px;
-}
 .languague-level {
   font-weight: lighter;
+  color: white;
   float: right;
 }
-
+.personal-data {
+  color: white;
+}
+a{
+  text-decoration: none;
+}
 .experience {
   padding: 20px;
 }
-
+.name{
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .experience-title {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-size: 18px;
+}
+
+.experience-subtitle {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.experience-section {
+  margin-bottom: 15px;
 }
 .institution {
   font-style: italic;
 }
-.experience-subtitle {
-  display: inline-block;
-  font-weight: bold;
-}
-.experience-section {
-  margin-bottom: 10px;
-}
-hr {
-  margin-bottom: 10px;
-  margin-right: -20px;
-}
+
 .period {
   float: right;
 }
-a {
-  text-decoration: none;
+
+.experience-subtitle-my-work{
+  display:inline-block;
+  border: 0.5px solid black;
+  background-color: #3f6592;
+  padding: 13px;
+  margin: 7px;
+  width: 200px;
+  text-align: center;
+  border-radius: 30px/20px;
 }
+.experience-subtitle-my-work > a {
+  color: white;
+  font-weight: bolder;
+} 
 @media screen and (min-width: 800px) {
   .personal-info,
   .experience {
     display: inline-block;
   }
      .personal-info {
-  width:15%;
+  width:25%;
     }
      .experience {
-  width:85%;
+  width:75%;
     }
+    .page-wrapper {
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+@media screen and (min-width: 1200px) {
+     .personal-info {
+  width:20%;
+    }
+     .experience {
+  width:80%;
+    }
+  }
