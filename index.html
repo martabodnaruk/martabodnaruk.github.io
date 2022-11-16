@@ -1,146 +1,192 @@
 <!DOCTYPE html>
-
-<html lang="uk">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>CV Bodnaruk</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="page-wrapper">
-      <div class="personal-info">
-        <div class="photo">
-          <img src="img/IMG_5623.jpg" alt="my photo" class="img-fluid" />
-        </div>
-        <ul class="personal-info-list">
-          <li>
-            <h2 class="personal-info-title">Особисті дані</h2>
-            <hr />
-            <ul class="personal-info-list">
-              <li class="personal-info-section">
-                <p class="personal-info-subtitle">Ім'я</p>
-                <p class="personal-data">Марта Боднарук</p>
-              </li>
-              <li class="personal-info-section">
-                <p class="personal-info-subtitle">Адреса</p>
-                <p class="personal-data">вул.Сорохтея</p>
-              </li>
-              <li class="personal-info-section">
-                <p class="personal-info-subtitle">Номер телефону</p>
-                <a class="personal-data" href="tel:+380994402024">380994402024</a>
-              </li>
-              <li class="personal-info-section">
-                <p class="personal-info-subtitle">Email</p>
-                <a class="personal-data" href="mailto:martabodnaruk8@gmail.com">martabodnaruk8@gmail.com</a>
-              </li>
-              <li class="personal-info-section">
-                <p class="personal-info-subtitle">Дата народження</p>
-                <p class="personal-data">08.09.2000</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h2 class="personal-info-title">Інтереси</h2>
-            <hr />
-            <ul class="personal-info-list">
-              <li class="personal-info-subtitle personal-info-section">
-                Література
-              </li>
-              <li class="personal-info-subtitle personal-info-section">
-                Програмування
-              </li>
-              <li class="personal-info-subtitle personal-info-section">
-                Кулінарія
-              </li>
-              <li class="personal-info-subtitle personal-info-section">
-                Спорт
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h2 class="personal-info-title">Мови</h2>
-            <hr />
-            <ul class="personal-info-list">
-              <li class="personal-info-subtitle personal-info-section">
-                Англійська
-                <span class="languague-level">Високий</span>
-              </li>
-              <li class=" personal-info-section personal-info-subtitle">
-                Сербська
-                <span class="languague-level item-col-2">Початковий</span>
-              </li>
-              <li class="personal-info-section personal-info-subtitle">
-                Українська
-                <span class="languague-level">Рідна мова</span>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div><div class="experience">
-        <div class="name">Марта Боднарук</div>
-        <hr />
-        <div class="experience-title">Досвід роботи</div>
-        <hr />
-        <div class="experience-section">
-          <div class="experience-subtitle">
-            Консультант з інформування клієнтів
+    <div class="page-wrap">
+      <div class="content-wrap">
+        <div class="page-header">
+          <div class="desktop-menu">
+            <nav>
+              <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </nav>
           </div>
-          <span class="period">лют 2019 - лис 2019</span>
-          <div class="institution">DataGroup, Київ</div>
-        </div>
-        <div class="experience-section">
-          <div class="experience-subtitle">Digital marketing specialist</div>
-          <span class="period">лют 2021 - лип 2022</span>
-          <div class="institution">Moko digital agency, Київ</div>
-        </div>
-        <div class="experience-section">
-          <div class="experience-subtitle">Sales manager</div>
-          <span class="period">бер 2022 - вер 2022</span>
-          <div class="institution">
-            WindnFire Crypto Marketing agency, Чехія
+          <div class="flex mobile-column-direction justify-between d-header">
+            <div class="title bold">
+              Marta<br />
+              Bodnaruk
+            </div>
+            <div class="subtitle">
+              Front-end developer<br />
+              22 years old, IF
+            </div>
+            <div class="lang">
+              <span id="lang-ua-d">UA </span>|<span id="lang-eng-d"> ENG</span>
+            </div>
           </div>
-        </div>
-        <div class="experience-title">Освіта і кваліфікації</div>
-        <hr />
-        <div class="experience-section">
-          <div class="experience-subtitle">Бакалавр Соціології</div>
-          <span class="period">вер 2017 - лип 2022</span>
-          <div class="institution">
-            Національний університет Києво-Могилянська Академія, Київ
+          <div class="menu-icon open-icon" id="openIcon"></div>
+          <div class="mobile-menu" id="mobileMenu">
+            <div class="menu-icon close-icon" id="closeIcon"></div>
+            <nav>
+              <ul>
+                <li class="menu-item home">Home</li>
+                <li class="menu-item">About me</li>
+                <li class="menu-item">Skills</li>
+                <li class="menu-item">Portfolio</li>
+                <li class="menu-item">Contacts</li>
+              </ul>
+            </nav>
+            <div class="lang">
+              <span id="lang-ua-m">UA </span>|<span id="lang-eng-m"> ENG</span>
+            </div>
           </div>
-        </div>
-        <div class="experience-title">Курси</div>
-        <hr />
-        <div class="experience-section">
-          <div class="experience-subtitle">English</div>
-          <span class="period">бер 2019 - тра 2019</span>
-          <div class="institution">Мовна школа "Green Forest" (Київ)</div>
-        </div>
-        <div class="experience-section">
-          <div class="experience-subtitle">Digital marketing</div>
-          <span class="period">лют 2020 - бер 2020</span>
-          <div class="institution">STUDPOINT, (онлайн)</div>
-        </div>
-        <div class="experience-section">
-          <div class="experience-subtitle">Front-end development</div>
-          <span class="period">жов 2022 - гру 2022</span>
-          <div class="institution">IT Cluster Academy</div>
-        </div>
-        <div class="experience-title">Навички</div>
-        <hr />
-        <div class="experience-section">
-          <div class="experience-subtitle">HTML, CSS, Java Script</div>
-        </div>
-        <div class="experience-title">Мої роботи</div>
-        <hr />
-        <div class="experience-section">
-          <div class="experience-subtitle-my-work"><a href="boxmodel/boxmodel.html">Box model</a></div>
-          <div class="experience-subtitle-my-work"><a href="title/title.html">Title</a></div>
-          <div class="experience-subtitle-my-work"><a href="burger_menu/burgermenu.html">Burger menu</a></div>
-          <div class="experience-subtitle-my-work"><a href="catalog/catalog.html">Catalog</a></div>
+          <div class="header-photo">
+            <img src="img/photo/photo_mob.png" alt="" class="show_mobile" />
+            <img src="img/photo/photo_desk.png" alt="" class="show_desktop" />
+          </div>
         </div>
       </div>
+      <section class="about">
+        <div class="content-wrap">
+          <div class="section-title">About me</div>
+          <div class="section-text">
+            <p>
+              Hi, I'm Denis – UX/UI designer from IF. I'm interested in design
+              and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile design interfaces" in
+              IT-Academy.
+            </p>
+            <p>Ready to implement excellent projects with wonderful people.</p>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="content-wrap">
+          <div class="section-title">Skills</div>
+          <div class="section-text">I work in such programs as</div>
+          <div class="row">
+            <div class="item item__skill">
+              <div class="item-img">
+                <img src="./img/skills/adobe_photoshop.png" alt="" />
+              </div>
+              <div class="item-title">Adobe Photoshop</div>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="item item__skill">
+              <div class="item-img">
+                <img src="./img/skills/adobe_illustrator.png" alt="" />
+              </div>
+              <div class="item-title">Adobe Illustrator</div>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="item item__skill">
+              <div class="item-img">
+                <img src="./img/skills/adobe_after.png" alt="" />
+              </div>
+              <div class="item-title">Adobe After Effects</div>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="item item__skill">
+              <div class="item-img">
+                <img src="./img/skills/Figma.png" alt="" />
+              </div>
+              <div class="item-title">Figma</div>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="content-wrap">
+          <div class="section-title">Portfolio</div>
+          <div class="portfolio-block">
+            <div class="portfolio-image">
+              <img src="img/portfolio/fashion_store.png" alt="" />
+            </div>
+            <a class="portfolio-link" href="#"
+              >Online fashion store - Homepage</a
+            >
+          </div>
+          <div class="portfolio-block">
+            <div class="portfolio-image">
+              <img src="img/portfolio/reebok_web.png" alt="" />
+            </div>
+            <a class="portfolio-link" href="#">Reebok Store - Concept</a>
+          </div>
+          <div class="portfolio-block">
+            <div class="portfolio-image">
+              <img src="img/portfolio/braun.png" alt="" />
+            </div>
+            <a class="portfolio-link" href="#">Braun Landing Page - Concept</a>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="content-wrap">
+          <div class="section-title">Contacts</div>
+          <div class="section-text">
+            <div class="chat-suggestion">
+              Want to know more or just chat? <br />
+              You are welcome!
+            </div>
+            <a class="button" href="mailto:martabodnaruk8@gmail.com"
+              >Send message</a
+            >
+            <div class="social-networks">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+              <i class="fa-brands fa-instagram fa-2x"></i>
+              <i class="fa-brands fa-square-behance fa-2x"></i>
+              <i class="fa-brands fa-dribbble fa-2x"></i>
+            </div>
+            <div class="like-me-on">
+              Like me on <br />
+              LinkedIn, Instagram, Behance, Dribble
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+    <script src="script/script.js"></script>
   </body>
 </html>
