@@ -4,189 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <title>Practical work 2</title>
   </head>
   <body>
-    <div class="page-wrap">
-      <div class="content-wrap">
-        <div class="page-header">
-          <div class="desktop-menu">
-            <nav>
-              <ul class="menu-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="flex mobile-column-direction justify-between d-header">
-            <div class="title bold">
-              Marta<br />
-              Bodnaruk
-            </div>
-            <div class="subtitle">
-              Front-end developer<br />
-              22 years old, IF
-            </div>
-            <div class="lang">
-              <span id="lang-ua-d">UA </span>|<span id="lang-eng-d"> ENG</span>
-            </div>
-          </div>
-          <div class="menu-icon open-icon" id="openIcon"></div>
-          <div class="mobile-menu" id="mobileMenu">
-            <div class="menu-icon close-icon" id="closeIcon"></div>
-            <nav>
-              <ul>
-                <li class="menu-item home">Home</li>
-                <li class="menu-item">About me</li>
-                <li class="menu-item">Skills</li>
-                <li class="menu-item">Portfolio</li>
-                <li class="menu-item">Contacts</li>
-              </ul>
-            </nav>
-            <div class="lang">
-              <span id="lang-ua-m">UA </span>|<span id="lang-eng-m"> ENG</span>
-            </div>
-          </div>
-          <div class="header-photo">
-            <img src="img/photo/photo_mob.png" alt="" class="show_mobile" />
-            <img src="img/photo/photo_desk.png" alt="" class="show_desktop" />
-          </div>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo-section">
+          <img claas="logo" src="logo.png" alt="" />
+          <div class="name">Назва</div>
+        </div>
+        <div class="nav-section">
+          <nav>
+            <div class="about-us">Про нас</div>
+            <div class="address">Наші адреси</div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </nav>
         </div>
       </div>
-      <section class="about">
-        <div class="content-wrap">
-          <div class="section-title">About me</div>
-          <div class="section-text">
-            <p>
-              Hi, I'm Denis – UX/UI designer from IF. I'm interested in design
-              and everything connected with it.
-            </p>
-            <p>
-              I'm studying at courses "Web and mobile design interfaces" in
-              IT-Academy.
-            </p>
-            <p>Ready to implement excellent projects with wonderful people.</p>
-          </div>
-        </div>
+    </header>
+    <main>
+      <section class="about-section">
+        <h1>Про компанію</h1>
+        <h2 class="description">Короткий опис компанії, декілька слів</h2>
+        <a class="button" href="#footer">Посилання на футер</a>
       </section>
-      <section class="skills">
-        <div class="content-wrap">
-          <div class="section-title">Skills</div>
-          <div class="section-text">I work in such programs as</div>
-          <div class="row">
-            <div class="item item__skill">
-              <div class="item-img">
-                <img src="./img/skills/adobe_photoshop.png" alt="" />
-              </div>
-              <div class="item-title">Adobe Photoshop</div>
-              <div class="item-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-            </div>
-            <div class="item item__skill">
-              <div class="item-img">
-                <img src="./img/skills/adobe_illustrator.png" alt="" />
-              </div>
-              <div class="item-title">Adobe Illustrator</div>
-              <div class="item-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-            </div>
-            <div class="item item__skill">
-              <div class="item-img">
-                <img src="./img/skills/adobe_after.png" alt="" />
-              </div>
-              <div class="item-title">Adobe After Effects</div>
-              <div class="item-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-            </div>
-            <div class="item item__skill">
-              <div class="item-img">
-                <img src="./img/skills/Figma.png" alt="" />
-              </div>
-              <div class="item-title">Figma</div>
-              <div class="item-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
+      <section class="text-section">
+        <q class="quote">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, quia.
+        </q>
+        <h3 class="title">What is Lorem Ipsum?</h3>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur
+          assumenda voluptates obcaecati porro sapiente modi corporis ratione
+          libero deleniti.Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Repellendus delectus fugiat quis doloribus laborum ab excepturi
+          necessitatibus deserunt, alias non.Repellendus delectus fugiat quis
+          doloribus laborum ab excepturi necessitatibus deserunt, alias
+          non.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Repellendus delectus fugiat quis doloribus laborum ab excepturi
+          necessitatibus deserunt, alias non.
+        </p>
+        <h3 class="title">What is Lorem Ipsum?</h3>
+        <p class="paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
+          delectus fugiat quis doloribus laborum ab excepturi necessitatibus
+          deserunt, alias non.Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Repellendus delectus fugiat quis doloribus laborum
+          ab excepturi necessitatibus deserunt, alias non.Repellendus delectus
+          fugiat quis doloribus laborum ab excepturi necessitatibus deserunt,
+          alias non.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Repellendus delectus fugiat quis doloribus laborum ab excepturi
+          necessitatibus deserunt, alias non.
+        </p>
       </section>
-      <section class="portfolio">
-        <div class="content-wrap">
-          <div class="section-title">Portfolio</div>
-          <div class="portfolio-block">
-            <div class="portfolio-image">
-              <img src="img/portfolio/fashion_store.png" alt="" />
-            </div>
-            <a class="portfolio-link" href="#"
-              >Online fashion store - Homepage</a
-            >
-          </div>
-          <div class="portfolio-block">
-            <div class="portfolio-image">
-              <img src="img/portfolio/reebok_web.png" alt="" />
-            </div>
-            <a class="portfolio-link" href="#">Reebok Store - Concept</a>
-          </div>
-          <div class="portfolio-block">
-            <div class="portfolio-image">
-              <img src="img/portfolio/braun.png" alt="" />
-            </div>
-            <a class="portfolio-link" href="#">Braun Landing Page - Concept</a>
-          </div>
-        </div>
-      </section>
-      <section class="contacts">
-        <div class="content-wrap">
-          <div class="section-title">Contacts</div>
-          <div class="section-text">
-            <div class="chat-suggestion">
-              Want to know more or just chat? <br />
-              You are welcome!
-            </div>
-            <a class="button" href="mailto:martabodnaruk8@gmail.com"
-              >Send message</a
-            >
-            <div class="social-networks">
-              <i class="fa-brands fa-linkedin fa-2x"></i>
-              <i class="fa-brands fa-instagram fa-2x"></i>
-              <i class="fa-brands fa-square-behance fa-2x"></i>
-              <i class="fa-brands fa-dribbble fa-2x"></i>
-            </div>
-            <div class="like-me-on">
-              Like me on <br />
-              LinkedIn, Instagram, Behance, Dribble
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <script src="script/script.js"></script>
+    </main>
+    <footer id="footer">
+      <p>&copy;Copyright 2022. All Rights Reserved</p>
+    </footer>
   </body>
 </html>
