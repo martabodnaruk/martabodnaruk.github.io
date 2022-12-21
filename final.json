@@ -5,35 +5,35 @@
         "image": "img/arrivals/skirt.png",
         "title": "Skirt",
         "price": "54$",
-        "rating": 5,
+        "rating": [true,true,true,true,false],
         "like": false
       },
       {
         "image": "img/arrivals/blouse.png",
         "title": "Yellow Silk Blouse",
         "price": "70$",
-        "rating": 4,
+        "rating": [true,true,true,true,true],
         "like": true
       },
       {
         "image": "img/arrivals/fheels.png",
         "title": "Black Heels With Feather",
         "price": "120$",
-        "rating": 5,
+        "rating": [true,true,true,false,false],
         "like": false
       },
       {
         "image": "img/arrivals/hat.png",
         "title": "Latitude Hat",
         "price": "25$",
-        "rating": 4,
+        "rating": [true,true,true,true,true],
         "like": true
       },
       {
         "image": "img/arrivals/cargo.png",
         "title": "Men's Cargo",
         "price": "85$",
-        "rating": 4,
+        "rating": [true,true,true,true,false],
         "like": true
       }
     ],
