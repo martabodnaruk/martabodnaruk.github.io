@@ -1,0 +1,60 @@
+[
+  {
+    "arrivals": [
+      {
+        "image": "img/arrivals/skirt.png",
+        "title": "Skirt",
+        "price": "54$",
+        "rating": 5,
+        "like": false
+      },
+      {
+        "image": "img/arrivals/blouse.png",
+        "title": "Yellow Silk Blouse",
+        "price": "70$",
+        "rating": 4,
+        "like": true
+      },
+      {
+        "image": "img/arrivals/fheels.png",
+        "title": "Black Heels With Feather",
+        "price": "120$",
+        "rating": 5,
+        "like": false
+      },
+      {
+        "image": "img/arrivals/hat.png",
+        "title": "Latitude Hat",
+        "price": "25$",
+        "rating": 4,
+        "like": true
+      },
+      {
+        "image": "img/arrivals/cargo.png",
+        "title": "Men's Cargo",
+        "price": "85$",
+        "rating": 4,
+        "like": true
+      }
+    ],
+
+    "fashion blog": [
+      {
+        "blogImage": "img/blog/blog_wedding.jpeg",
+        "blogTitle": "Wedding Trends 2023",
+        "category": "Wedding",
+        "date": "December 12,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+      {
+        "blogImage": "img/blog/boots.png",
+        "blogTitle": "Top Heels Winter 2023",
+        "category": "Fashion",
+        "date": "September 8,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      }
+    ]
+  }
+]
