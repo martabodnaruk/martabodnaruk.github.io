@@ -4,71 +4,113 @@
       {
         "image": "img/arrivals/skirt.png",
         "title": "Skirt",
-        "price": "54$",
+        "price": "$ 54.50",
         "rating": [true,true,true,true,false],
         "like": false
       },
       {
         "image": "img/arrivals/blouse.png",
         "title": "Yellow Silk Blouse",
-        "price": "70$",
+        "price": "$ 70.00",
         "rating": [true,true,true,true,true],
         "like": true
       },
       {
         "image": "img/arrivals/fheels.png",
         "title": "Black Heels With Feather",
-        "price": "120$",
+        "price": "$ 120.89",
         "rating": [true,true,true,false,false],
         "like": false
       },
       {
         "image": "img/arrivals/hat.png",
         "title": "Latitude Hat",
-        "price": "25$",
+        "price": "$ 25.13",
         "rating": [true,true,true,true,true],
         "like": true
       },
       {
         "image": "img/arrivals/cargo.png",
         "title": "Men's Cargo",
-        "price": "85$",
+        "price": "$ 85.00",
         "rating": [true,true,true,true,false],
         "like": true
       },
 {
         "image": "img/arrivals/NA-cap.png",
         "title": "Black and white sport cap",
-        "price": "$18.15",
+        "price": "$ 18.15",
         "rating": [true,true,true,true,false],
         "like": true
       },
 {
         "image": "img/arrivals/NA-glasses.png",
         "title": "Metal bridge sunglasses",
-        "price": "$89.95",
+        "price": "$ 89.95",
         "rating": [true,true,true,false,false],
         "like": false
       },
 {
         "image": "img/arrivals/NA-sliders.png",
         "title": "Green baby romper",
-        "price": "$20.40",
+        "price": "$ 20.40",
         "rating": [true,true,true,true,true],
         "like": false
       },
 {
         "image": "img/arrivals/NA-trousers.png",
         "title": "Mid-rise slim cropped fit jeans",
-        "price": "$58",
+        "price": "$ 58.45",
+        "rating": [true,true,true,true,false],
+        "like": true
+      },
+{
+        "image": "img/arrivals/NA-earrings.png",
+        "title": "Red dangle earrings",
+        "price": "$ 50.67",
         "rating": [true,true,true,true,false],
         "like": true
       },
 {
         "image": "img/arrivals/NA-kids-shoes.png",
         "title": "Baby shoes with laces",
-        "price": "$25",
+        "price": "$ 25.87",
         "rating": [true,true,true,true,true],
+        "like": false
+      },
+{
+        "image": "img/arrivals/trousers.png",
+        "title": "Creamy trousers",
+        "price": "$ 78.96",
+        "rating": [true,true,true,false,false],
+        "like": false
+      },
+{
+        "image": "img/arrivals/gskirt.png",
+        "title": "Teenage skirt",
+        "price": "$ 31.00",
+        "rating": [true,true,true,true,false],
+        "like": false
+      },
+{
+        "image": "img/arrivals/balenciaga-trainers.png",
+        "title": "Balenciaga trainers",
+        "price": "$ 131.90",
+        "rating": [true,true,true,true,true],
+        "like": false
+      },
+{
+        "image": "img/arrivals/jewerly.png",
+        "title": "Jewerly Blue Nile",
+        "price": "$ 231.90",
+        "rating": [true,true,true,true,true],
+        "like": true
+      },
+{
+        "image": "img/arrivals/kidscl.png",
+        "title": "Kid's Clothes",
+        "price": "$ 51.00",
+        "rating": [true,true,true,false,false],
         "like": false
       }
     ],
