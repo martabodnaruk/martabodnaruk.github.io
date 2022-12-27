@@ -79,7 +79,7 @@
         "like": false
       },
 {
-        "image": "img/arrivals/trousers.png",
+        "image": "img/arrivals/cremytrousers.png",
         "title": "Creamy trousers",
         "price": "$ 78.96",
         "rating": [true,true,true,false,false],
@@ -111,6 +111,41 @@
         "title": "Kid's Clothes",
         "price": "$ 51.00",
         "rating": [true,true,true,false,false],
+        "like": false
+      },
+{
+        "image": "img/arrivals/boots.jpg",
+        "title": "Lether Boots",
+        "price": "$ 156.00",
+        "rating": [true,true,true,true,false],
+        "like": true
+      },
+{
+        "image": "img/arrivals/bluedress.png",
+        "title": "Little Blue Dress",
+        "price": "$ 46.00",
+        "rating": [true,true,true,true,true],
+        "like": false
+      },
+{
+        "image": "img/arrivals/womenjeans.png",
+        "title": "Jeans",
+        "price": "$ 25.90",
+        "rating": [true,true,true,true,true],
+        "like": false
+      },
+{
+        "image": "img/arrivals/jacket.png",
+        "title": "Winter Jacket",
+        "price": "$ 75.90",
+        "rating": [true,true,true,true,false],
+        "like": false
+      },
+{
+        "image": "img/arrivals/kidsdress.png",
+        "title": "Kid's Dress",
+        "price": "$ 61.50",
+        "rating": [true,true,true,true,true,
         "like": false
       }
     ],
