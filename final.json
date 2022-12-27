@@ -2,41 +2,6 @@
   {
     "arrivals": [
       {
-        "image": "img/arrivals/skirt.png",
-        "title": "Skirt",
-        "price": "$ 54.50",
-        "rating": [true,true,true,true,false],
-        "like": false
-      },
-      {
-        "image": "img/arrivals/blouse.png",
-        "title": "Yellow Silk Blouse",
-        "price": "$ 70.00",
-        "rating": [true,true,true,true,true],
-        "like": true
-      },
-      {
-        "image": "img/arrivals/fheels.png",
-        "title": "Black Heels With Feather",
-        "price": "$ 120.89",
-        "rating": [true,true,true,false,false],
-        "like": false
-      },
-      {
-        "image": "img/arrivals/hat.png",
-        "title": "Latitude Hat",
-        "price": "$ 25.13",
-        "rating": [true,true,true,true,true],
-        "like": true
-      },
-      {
-        "image": "img/arrivals/cargo.png",
-        "title": "Men's Cargo",
-        "price": "$ 85.00",
-        "rating": [true,true,true,true,false],
-        "like": true
-      },
-{
         "image": "img/arrivals/NA-cap.png",
         "title": "Black and white sport cap",
         "price": "$ 18.15",
@@ -72,6 +37,42 @@
         "like": true
       },
 {
+        "image": "img/arrivals/skirt.png",
+        "title": "Skirt",
+        "price": "$ 54.50",
+        "rating": [true,true,true,true,false],
+        "like": false
+      },
+      {
+        "image": "img/arrivals/blouse.png",
+        "title": "Yellow Silk Blouse",
+        "price": "$ 70.00",
+        "rating": [true,true,true,true,true],
+        "like": true
+      },
+      {
+        "image": "img/arrivals/fheels.png",
+        "title": "Black Heels With Feather",
+        "price": "$ 120.89",
+        "rating": [true,true,true,false,false],
+        "like": false
+      },
+      {
+        "image": "img/arrivals/hat.png",
+        "title": "Latitude Hat",
+        "price": "$ 25.13",
+        "rating": [true,true,true,true,true],
+        "like": true
+      },
+      {
+        "image": "img/arrivals/cargo.png",
+        "title": "Men's Cargo",
+        "price": "$ 85.00",
+        "rating": [true,true,true,true,false],
+        "like": true
+      },
+
+{
         "image": "img/arrivals/NA-kids-shoes.png",
         "title": "Baby shoes with laces",
         "price": "$ 25.87",
@@ -79,7 +80,7 @@
         "like": false
       },
 {
-        "image": "img/arrivals/cremytrousers.png",
+        "image": "img/arrivals/creamytrousers.png",
         "title": "Creamy trousers",
         "price": "$ 78.96",
         "rating": [true,true,true,false,false],
@@ -135,6 +136,13 @@
         "like": false
       },
 {
+        "image": "img/arrivals/sweaterw.png",
+        "title": "Women's Sweater",
+        "price": "$ 34.34",
+        "rating": [true,true,true,true,true],
+        "like": false
+      },
+{
         "image": "img/arrivals/jacket.png",
         "title": "Winter Jacket",
         "price": "$ 75.90",
@@ -147,6 +155,27 @@
         "price": "$ 61.50",
         "rating": [true,true,true,true,true],
         "like": false
+      },
+{
+        "image": "img/arrivals/womencoat.png",
+        "title": "Women's Coat",
+        "price": "$ 74.34",
+        "rating": [true,true,true,true,true],
+        "like": true
+      },
+{
+        "image": "img/arrivals/doinghat.png",
+        "title": "Doing Things Hat",
+        "price": "$ 11.99",
+        "rating": [true,true,true,true,true],
+        "like": true
+      },
+{
+        "image": "img/arrivals/kidsjumper.png",
+        "title": "Kid's Jumper",
+        "price": "$ 27.10",
+        "rating": [true,true,true,true,true],
+        "like": true
       }
     ],
 
