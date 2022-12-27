@@ -145,7 +145,7 @@
         "image": "img/arrivals/kidsdress.png",
         "title": "Kid's Dress",
         "price": "$ 61.50",
-        "rating": [true,true,true,true,true,
+        "rating": [true,true,true,true,true],
         "like": false
       }
     ],
