@@ -185,7 +185,7 @@
         "blogTitle": "Bag Trends for Summer 2022",
         "category": "Fashion",
         "date": "December 19,2022",
-        "comments": false,
+        "comments": ['q', 'w', 'e'],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
       {
@@ -193,7 +193,7 @@
         "blogTitle": "Wedding Trends 2023",
         "category": "Wedding",
         "date": "December 12,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
 {
@@ -201,7 +201,7 @@
         "blogTitle": "Top 10 of This Season’s Hottest Sneakers",
         "category": "Fashion",
         "date": "March 19,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
       {
@@ -209,7 +209,7 @@
         "blogTitle": "Top Heels Winter 2023",
         "category": "Fashion",
         "date": "September 8,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
 {
@@ -217,7 +217,7 @@
         "blogTitle": "Wardrobe Essentials Everyone Should Own Today",
         "category": "Celebrity style",
         "date": "September 8,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
 {
@@ -225,7 +225,7 @@
         "blogTitle": "Modern Accessories 2023: Why Simple Isn't Easy",
         "category": "Celebrity style",
         "date": "December 19,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
 {
@@ -233,7 +233,7 @@
         "blogTitle": "13 Cute Winter Hats for Women 2023",
         "category": "Fashion",
         "date": "December 29,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
 {
@@ -241,7 +241,7 @@
         "blogTitle": "Coats Winter 2023",
         "category": "Celebrity style",
         "date": "December 19,2022",
-        "comments": false,
+        "comments": [],
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       }
     ]
