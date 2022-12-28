@@ -180,6 +180,14 @@
     ],
 
     "fashionBlog": [
+{
+        "blogImage": "img/blog/blog_summer_trends.png",
+        "blogTitle": "Bag Trends for Summer 2022",
+        "category": "Fashion",
+        "date": "December 19,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
       {
         "blogImage": "img/blog/blog_wedding.jpeg",
         "blogTitle": "Wedding Trends 2023",
@@ -188,11 +196,51 @@
         "comments": false,
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       },
+{
+        "blogImage": "img/blog/blog_sneakers.png",
+        "blogTitle": "Top 10 of This Season’s Hottest Sneakers",
+        "category": "Fashion",
+        "date": "March 19,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
       {
-        "blogImage": "img/blog/boots.png",
+        "blogImage": "img/blog/blog_boots.png",
         "blogTitle": "Top Heels Winter 2023",
         "category": "Fashion",
         "date": "September 8,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+{
+        "blogImage": "img/blog/blog_essentials.png",
+        "blogTitle": "Wardrobe Essentials Everyone Should Own Today",
+        "category": "Celebrity style",
+        "date": "September 8,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+{
+        "blogImage": "img/blog/blog_accessories.png",
+        "blogTitle": "Modern Accessories 2023: Why Simple Isn't Easy",
+        "category": "Celebrity style",
+        "date": "December 19,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+{
+        "blogImage": "img/blog/blog_hats.png",
+        "blogTitle": "13 Cute Winter Hats for Women 2023",
+        "category": "Fashion",
+        "date": "December 29,2022",
+        "comments": false,
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+{
+        "blogImage": "img/blog/blog_coats.jpeg",
+        "blogTitle": "Coats Winter 2023",
+        "category": "Celebrity style",
+        "date": "December 19,2022",
         "comments": false,
         "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
       }
