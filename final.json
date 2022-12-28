@@ -181,6 +181,22 @@
 
     "fashionBlog": [
 {
+        "blogImage": "img/blog/blog_hats.png",
+        "blogTitle": "Winter Hats for Women 2023",
+        "category": "Fashion",
+        "date": "December 29,2022",
+        "comments": [],
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+{
+        "blogImage": "img/blog/blog_coats.jpeg",
+        "blogTitle": "Coats Winter 2023",
+        "category": "Celebrity style",
+        "date": "December 19,2022",
+        "comments": [],
+        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
+      },
+{
         "blogImage": "img/blog/blog_summer_trends.png",
         "blogTitle": "Bag Trends for Summer 2022",
         "category": "Fashion",
@@ -214,7 +230,7 @@
       },
 {
         "blogImage": "img/blog/blog_essentials.png",
-        "blogTitle": "Wardrobe Essentials Everyone Should Own Today",
+        "blogTitle": "Wardrobe Essentials Everyone Should Own",
         "category": "Celebrity style",
         "date": "September 8,2022",
         "comments": [],
@@ -222,23 +238,7 @@
       },
 {
         "blogImage": "img/blog/blog_accessories.png",
-        "blogTitle": "Modern Accessories 2023: Why Simple Isn't Easy",
-        "category": "Celebrity style",
-        "date": "December 19,2022",
-        "comments": [],
-        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
-      },
-{
-        "blogImage": "img/blog/blog_hats.png",
-        "blogTitle": "13 Cute Winter Hats for Women 2023",
-        "category": "Fashion",
-        "date": "December 29,2022",
-        "comments": [],
-        "blogText": "Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus..."
-      },
-{
-        "blogImage": "img/blog/blog_coats.jpeg",
-        "blogTitle": "Coats Winter 2023",
+        "blogTitle": "Modern Accessories 2023",
         "category": "Celebrity style",
         "date": "December 19,2022",
         "comments": [],
