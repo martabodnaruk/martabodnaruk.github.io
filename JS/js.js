@@ -131,6 +131,7 @@ function populateBlog(catalog, page) {
 
     const blogCategory = document.createElement("div");
     const blogDivider = document.createElement("div");
+const blogSecondDivider = document.createElement("div");
     const blogDate = document.createElement("div");
     const blogComments = document.createElement("div");
     const blogCommentsIcon = document.createElement("i");
@@ -138,6 +139,7 @@ function populateBlog(catalog, page) {
 
     blogCategory.className = "blog-category";
     blogDivider.className = "blog-divider";
+blogSecondDivider.className = "blog-divider";
     blogDate.className = "blog-date";
     blogComments.className = "blog-comments";
     blogCommentsAmount.className = "comments-amount";
@@ -153,7 +155,7 @@ function populateBlog(catalog, page) {
     blogInfoBlock.appendChild(blogCategory);
     blogInfoBlock.appendChild(blogDivider);
     blogInfoBlock.appendChild(blogDate);
-    blogInfoBlock.appendChild(blogDivider);
+    blogInfoBlock.appendChild(blogSecondDivider);
     blogComments.appendChild(blogCommentsIcon);
     blogComments.appendChild(blogCommentsAmount);
     blogInfoBlock.appendChild(blogComments);
