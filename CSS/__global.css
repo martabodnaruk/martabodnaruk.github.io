@@ -1,0 +1,120 @@
+.flex {
+  display: flex;
+}
+.bold {
+  font-weight: 900;
+}
+.section-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 130%;
+  margin-bottom: 30px;
+}
+
+.show-desktop {
+  display: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.white {
+  color: #ffffff;
+}
+.rating {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1px;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+.arrival-item,
+.sale-item,
+.trending-now-item {
+  position: relative;
+}
+.fa-star {
+  font-size: 10px;
+  color: #b3b7bc;
+}
+.rating .checked {
+  color: #f89828;
+}
+.like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #787a80;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 50px;
+}
+.like .liked {
+  color: #17696a;
+}
+.sale-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  background: #ff4242;
+  border-radius: 4px;
+  width: 50px;
+  height: 24px;
+}
+
+.timer-title,
+#timer {
+  color: #1e212c;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0px;
+}
+#timer {
+  gap: 10px;
+}
+.timer-wrap {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+}
+
+.timer-title {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.timer-label {
+  font-size: 12px;
+  font-weight: 400;
+}
+.timer-value {
+  font-size: 26px;
+}
+@media screen and (min-width: 993px) {
+  .show_mobile {
+    display: none;
+  }
+  .show_desktop {
+    display: block;
+  }
+  .timer-wrap {
+    width: 50px;
+  }
+  .timer-label,
+  .timer-title {
+    font-size: 14px;
+  }
+  .timer-value {
+    font-size: 28px;
+  }
+}
