@@ -182,7 +182,7 @@
     "fashionBlog": [
 {
         "blogImage": "img/blog/blog_hats.png",
-        "blogTitle": "Winter Hats for Women 2023",
+        "blogTitle": "Hats for Women 2023",
         "category": "Fashion",
         "date": "December 29,2022",
         "comments": [],
@@ -198,7 +198,7 @@
       },
 {
         "blogImage": "img/blog/blog_summer_trends.png",
-        "blogTitle": "Bag Trends for Summer 2022",
+        "blogTitle": "Trends for Summer 2023",
         "category": "Fashion",
         "date": "December 19,2022",
         "comments": ["q", "w", "e"],
@@ -214,7 +214,7 @@
       },
 {
         "blogImage": "img/blog/blog_sneakers.png",
-        "blogTitle": "Top 10 of This Season’s Hottest Sneakers",
+        "blogTitle": "Top 10 Hottest Sneakers",
         "category": "Fashion",
         "date": "March 19,2022",
         "comments": [],
@@ -230,7 +230,7 @@
       },
 {
         "blogImage": "img/blog/blog_essentials.png",
-        "blogTitle": "Wardrobe Essentials Everyone Should Own",
+        "blogTitle": "Wardrobe Essentials",
         "category": "Celebrity style",
         "date": "September 8,2022",
         "comments": [],
