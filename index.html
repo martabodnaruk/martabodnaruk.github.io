@@ -1,32 +1,625 @@
 <!DOCTYPE html>
-<html lang="ukr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catalog</title>
-    <link rel="stylesheet" href="css.css" />
+    <title>Final project</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/__variables.css" />
+    <link rel="stylesheet" href="CSS/__global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="page-wrapp">
-      <div class="container">
-        <div class="scroll right">&and;</div>
-        <div class="scroll left">&or;</div>
-        <!-- ITEM CARDS -->
-
-        <!-- <div class="item-card"> 
-                <div class="advertisement hit">Хіт продажів</div>
-                <div class="categories">Букви та читання</div>
-                <div class="item-img"><img src="zb.png" alt=""/></div>
-                <div class="item-name">Тваринобукви</div>
-                <div class="item-price">
-                    <span class="old-price"></span>
-                    <span class="actual-price">450 грн</span>
+    <div class="page-wrap">
+      <header class="header">
+        <div class="topbar flex">
+          <div class="hotline-block">Available 24/7 at (405) 555-0128</div>
+          <div class="info-block">
+            <nav class="flex">
+              <div class="info-block-item">Delivery & returns</div>
+              <div class="info-block-item">Track order</div>
+              <div class="info-block-item">Blog</div>
+              <div class="info-block-item">Contacts</div>
+            </nav>
+          </div>
+          <div class="options-block flex">
+            <div class="burger-menu">
+              <i class="fa fa-bars"></i>
+            </div>
+            <div class="lang-currency-block flex">
+              <div>
+                <div class="lang-item-en">
+                  <img src="img/flag-usa.png" alt="" />
+                  <span>Eng / $</span> <span>&or;</span>
                 </div>
-                <div class="button">У корзину</div>
-            </div>-->
-      </div>
+              </div>
+            </div>
+            <div class="login-registration-block">
+              <i class="fa fa-user"></i>
+              <span>Log in / Register</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="menu flex">
+          <div class="logo">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <nav class="menu-categories">
+            <div class="menu-item">Women</div>
+            <div class="menu-item">Men</div>
+            <div class="menu-item">Girls</div>
+            <div class="menu-item">Boys</div>
+            <div class="menu-item">Sale</div>
+          </nav>
+          <div class="input-block">
+            <form action="#" method="get">
+              <input
+                class="input-field"
+                type="text"
+                name="site_search"
+                id="site_search"
+                placeholder="Search for products"
+              />
+              <i class="fa fa-magnifying-glass icon"></i>
+            </form>
+          </div>
+          <div class="user-added-block flex">
+            <div class="wishlist">
+              <i class="fa fa-heart"> </i>
+              <span class="wishlist-amount">3</span>
+            </div>
+            <div class="menu-divider"></div>
+            <div class="basket">
+              <i class="fa fa-cart-shopping"></i>
+              <span class="basket-amount">3</span>
+            </div>
+          </div>
+        </section>
+        <section class="special-offers flex">
+          <span>&lt;&nbsp;&nbsp;&nbsp;</span>
+          <span class="bold">Up to 70% Off.&nbsp;</span>
+          <a href="#">Shop our latest sale styles</a>
+          <span>&nbsp;&nbsp;&nbsp;&gt;</span>
+        </section>
+        <section class="hero-slider">
+          <div class="hero-slider-container flex">
+            <div class="main-block">
+              <div class="collection-name">
+                <div class="subtitle uppercase">New collection</div>
+                <h1 class="title">Menswear 2022</h1>
+              </div>
+              <div class="buttons-block flex">
+                <a href="#"><div class="main-button-style">Shop sale</div></a>
+                <a href="#"
+                  ><div class="main-button-style">Shop the menswear</div></a
+                >
+              </div>
+            </div>
+            <div class="hero-slider-pager">
+              <div class="hero-slider-pager-item">01</div>
+              <div class="hero-slider-pager-item">02</div>
+              <div class="hero-slider-pager-item">03</div>
+              <div class="hero-slider-pager-item">04</div>
+            </div>
+          </div>
+        </section>
+        <section class="top-categories">
+          <div class="top-categories-container flex">
+            <figure class="womens category">
+              <a href="#"><img src="img/categories/womens.png" alt="" /></a>
+              <a href="#" class="top-categories-name"><p>Women's</p></a>
+            </figure>
+            <figure class="mens category">
+              <a href="#"><img src="img/categories/men.png" alt="" /></a>
+              <a href="#" class="top-categories-name"><p>Men's</p></a>
+            </figure>
+            <figure class="kids category">
+              <a href="#"><img src="img/categories/kids.png" alt="" /></a>
+              <a href="#" class="top-categories-name"><p>Kids'</p></a>
+            </figure>
+          </div>
+        </section>
+        <section class="arrivals">
+          <div class="arrivals-container">
+            <h2 class="section-title">New arrivals</h2>
+            <h3>
+              Check out our latest arrivals for the upcoming season <br />
+            </h3>
+            <a href="#">See the collection here</a>
+            <div class="new-items-container flex"></div>
+            <!-- PAGER -->
+            <div class="arrivals-pager flex">
+              <div class="arrivals-pager-item-wrap">
+                <button class="arrivals-pager-item"></button>
+              </div>
+              <div class="arrivals-pager-item-wrap">
+                <button class="arrivals-pager-item"></button>
+              </div>
+              <div class="arrivals-pager-item-wrap">
+                <button class="arrivals-pager-item"></button>
+              </div>
+              <div class="arrivals-pager-item-wrap">
+                <button class="arrivals-pager-item"></button>
+              </div>
+              <div class="arrivals-pager-item-wrap">
+                <button class="arrivals-pager-item"></button>
+              </div>
+              <div class="arrivals-pager-item-wrap">
+                <button class="arrivals-pager-item"></button>
+              </div>
+            </div>
+            <!-- PAGER -->
+          </div>
+        </section>
+        <section class="banner">
+          <div class="banner-container flex">
+            <div class="banner-item summer flex">
+              <div class="collection-name uppercase">Summer Collections</div>
+              <div class="banner-message bold">Sale Up to 70%</div>
+              <a href="#"
+                ><div class="main-button-style">Explore new prices</div></a
+              >
+            </div>
+            <div class="banner-item sweaters flex">
+              <div class="collection-name uppercase">Deal of the week</div>
+              <div class="banner-message bold">
+                Stay Warm With Our New Sweaters
+              </div>
+              <a href="#"><div class="main-button-style">Shop now</div></a>
+
+              <div class="timer-title">Limited time offer</div>
+              <div id="timer" class="flex">
+                <div class="timer-wrap flex">
+                  <div class="timer-value" id="timer-days"></div>
+                  <div class="timer-label">Days</div>
+                </div>
+                <div class="timer-wrap flex">
+                  <div class="timer-value" id="timer-hours"></div>
+                  <div class="timer-label">Hours</div>
+                </div>
+                <div class="timer-wrap flex">
+                  <div class="timer-value" id="timer-min"></div>
+                  <div class="timer-label">Mins</div>
+                </div>
+                <div class="timer-wrap flex">
+                  <div class="timer-value" id="timer-sec"></div>
+                  <div class="timer-label">Sec</div>
+                </div>
+              </div>
+            </div>
+            <div class="banner-item shoes-bags flex">
+              <div class="collection-name uppercase">New collection</div>
+              <div class="banner-message bold">
+                Shoes & Bags autumn / winter 2022
+              </div>
+              <a href="#"
+                ><div class="main-button-style">See offers &rarr;</div></a
+              >
+            </div>
+            <div class="banner-item discount flex">
+              <div class="collection-name uppercase">
+                For All new Email Subscribers
+              </div>
+              <div class="banner-message bold">Get 5% Off & Free Delivery</div>
+              <form action="#" method="get">
+                <label for="email">Email</label><br />
+                <div class="email-subscribe">
+                  <input
+                    class="email"
+                    type="email"
+                    id="email-subscribe"
+                    name="email"
+                    placeholder="Your working email"
+                  /><button class="subscribe-button white">Subscribe</button>
+                </div>
+              </form>
+              <div class="note">
+                *Sign up to be the first to hear about exclusive deals, special
+                offers and upcoming collections.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="popular-categories">
+          <h2 class="section-title">Popular categories</h2>
+          <div class="popular-categories-container flex">
+            <figure class="category-item">
+              <img src="img/popular_categories/tops.png" alt="" />
+              <figcaption>Tops</figcaption>
+            </figure>
+            <figure class="category-item">
+              <img src="img/popular_categories/t-shirts.png" alt="" />
+              <figcaption>T-shirts</figcaption>
+            </figure>
+            <figure class="category-item">
+              <img src="img/popular_categories/caps.png" alt="" />
+              <figcaption>Caps</figcaption>
+            </figure>
+            <figure class="category-item">
+              <img src="img/popular_categories/sandals.png" alt="" />
+              <figcaption>Sandals</figcaption>
+            </figure>
+            <figure class="category-item">
+              <img src="img/popular_categories/jackets.png" alt="" />
+              <figcaption>Jackets</figcaption>
+            </figure>
+            <figure class="category-item">
+              <img src="img/popular_categories/coats.png" alt="" />
+              <figcaption>Coats</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="trending-now">
+          <div class="trending-now-container flex">
+            <div class="title-section flex">
+              <h2 class="section-title">Trending now</h2>
+              <div class="buttons show-desktop">
+                <div class="previous-button flex">&larr;</div>
+                <div class="next-button flex">&rarr;</div>
+              </div>
+            </div>
+            <div class="trending-products flex">
+              <div class="trending-now-item">
+                <div class="rating">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                </div>
+                <img src="img/trending_now/TN-shirt.png" alt="" />
+                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                <p class="product-name">Shirt with insertion lace trims</p>
+                <p class="product-price">$49.95</p>
+              </div>
+              <div class="trending-now-item">
+                <div class="rating">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="img/trending_now/TN-watch.png" alt="" />
+                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                <p class="product-name">Chrono watch with blue leather belt</p>
+                <p class="product-price">$120.60</p>
+              </div>
+              <div class="trending-now-item">
+                <div class="rating"></div>
+                <img src="img/trending_now/TN-coat.png" alt="" />
+                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                <p class="product-name">Check coat with colour contrast</p>
+                <p class="product-price">$183.45</p>
+              </div>
+            </div>
+            <div class="buttons-block">
+              <a href="#"
+                ><div class="main-button-style">Explore top sales</div></a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="sale-section">
+          <div class="sale-section-container flex">
+            <div class="title-section flex">
+              <h2 class="section-title">Sale up to 70%!</h2>
+              <div class="buttons show-desktop">
+                <div class="previous-button flex">&larr;</div>
+                <div class="next-button flex">&rarr;</div>
+              </div>
+            </div>
+            <div class="sale-products flex">
+              <div class="sale-item">
+                <div class="sale-badge">-50%</div>
+                <div class="rating">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                </div>
+                <img src="img/sale/sale-bag.png" alt="" />
+                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                <p class="product-name">
+                  Leather crossbody bag with gold hardware
+                </p>
+                <span class="sale-price">$89.50</span>
+                <span class="old-price">$179.00</span>
+              </div>
+              <div class="sale-item">
+                <div class="sale-badge">-50%</div>
+                <div class="rating"></div>
+                <img src="img/sale/sale_jeans.png" alt="" />
+                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                <p class="product-name">Skinny push-up jeans</p>
+                <span class="sale-price">$40.00</span>
+                <span class="old-price">$80.00</span>
+              </div>
+              <div class="sale-item">
+                <div class="sale-badge">-20%</div>
+                <div class="rating">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                </div>
+                <img src="img/sale/sale-heel.png" alt="" />
+                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                <p class="product-name">Wide heel suede ankle boots</p>
+                <span class="sale-price">$119.16</span>
+                <span class="old-price">$148.95</span>
+              </div>
+            </div>
+            <div class="buttons-block">
+              <a href="#"
+                ><div class="main-button-style">See all sale products</div></a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="advertisement apps">
+          <div class="advertisement-container">
+            <div class="advertisement-img"></div>
+            <div class="ads flex">
+              <div class="apps flex">
+                <a href="#" class="app-item"
+                  ><img src="img/apps/app-store.png" alt=""
+                /></a>
+                <a href="#" class="app-item"
+                  ><img src="img/apps/google-play.png" alt=""
+                /></a>
+              </div>
+              <h3 class="advertisement-message bold white">
+                Enjoy mobile shopping with our Createx Store App!
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="services-container flex">
+            <figure class="service-item">
+              <img
+                class="service-icon"
+                src="img/service_icons/ic-delivery.png"
+                alt=""
+              />
+              <a href="#"
+                ><p class="service-name">Fast Worldwide Shipping</p></a
+              >
+              <figcaption class="service-description">
+                Get free shipping over $250
+              </figcaption>
+            </figure>
+            <div class="divider"></div>
+            <figure class="service-item">
+              <img
+                class="service-icon"
+                src="img/service_icons/ic-call-center.png"
+                alt=""
+              />
+              <a href="#"><p class="service-name">24/7 Customer Support</p></a>
+              <figcaption class="service-description">
+                Friendly 24/7 customer support
+              </figcaption>
+            </figure>
+            <div class="divider"></div>
+            <figure class="service-item">
+              <img
+                class="service-icon"
+                src="img/service_icons/ic-shield.png"
+                alt=""
+              />
+              <a href="#"><p class="service-name">Money Back Guarantee</p></a>
+              <figcaption class="service-description">
+                We return money within 30 days
+              </figcaption>
+            </figure>
+            <div class="divider"></div>
+            <figure class="service-item">
+              <img
+                class="service-icon"
+                src="img/service_icons/ic-credit-card.png"
+                alt=""
+              />
+              <a href="#"><p class="service-name">Secure Online Payment</p></a>
+              <figcaption class="service-description">
+                Accept all major credit cards
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="follow-us">
+          <div class="follow-us-container flex">
+            <div class="our-socials-block flex">
+              <div class="subtitle uppercase">Follow us on Instagram</div>
+              <h1 class="title">@createx_store</h1>
+              <a href="#">
+                <div class="instagram main-button-style">
+                  <i class="fa-brands fa-instagram"></i>
+                  &nbsp;Follow instagram
+                </div></a
+              >
+            </div>
+            <div class="gallery flex">
+              <img
+                class="gallery-item"
+                src="img/insta-gallery/gallery-1.png"
+                alt=""
+              />
+              <img
+                class="gallery-item"
+                src="img/insta-gallery/gallery-2.png"
+                alt=""
+              />
+              <img
+                class="gallery-item"
+                src="img/insta-gallery/gallery-3.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="blog-container flex">
+            <div class="title-section flex">
+              <h2 class="section-title">Fashion blog</h2>
+              <div class="buttons show-desktop">
+                <div class="previous-button blog-previous-button desktop flex">
+                  &larr;
+                </div>
+                <div class="next-button blog-next-button desktop flex">
+                  &rarr;
+                </div>
+              </div>
+            </div>
+            <div class="blog-cards flex"></div>
+            <div class="buttons show-mobile">
+              <div class="previous-button blog-previous-button mob flex">
+                &larr;
+              </div>
+              <div class="next-button blog-next-button mob flex">&rarr;</div>
+            </div>
+          </div>
+        </section>
+        <section class="brands">
+          <div class="brands-container flex">
+            <img
+              src="./img/brands/InDepthConsultingLogoUntitledPage.png"
+              alt=""
+            />
+            <img src="./img/brands/HigherFitLogoUntitledPage.png" alt="" />
+            <img src="./img/brands/SentinalConsultingLogo.png" alt="" />
+            <img src="./img/brands/NationalHealthLogo.png" alt="" />
+            <img src="./img/brands/ForSaleLogo.png" alt="" />
+            <img src="./img/brands/DelMarStrategyLogo.png" alt="" />
+          </div>
+        </section>
+        <section class="subscribe">
+          <div class="subscribe-container flex">
+            <div class="subscribe-content-block flex">
+              <h2 class="section-title">Subscribe for updates</h2>
+              <div class="subscribe-text">
+                Subscribe for exclusive early sale access and new arrivals.
+              </div>
+              <div class="category-buttons flex">
+                <button class="main-button-style">Women</button>
+                <button class="main-button-style">Men</button>
+                <button class="main-button-style">Girls</button>
+                <button class="main-button-style">Boys</button>
+              </div>
+              <div class="subscribe-input-group flex">
+                <form action="#" method="get">
+                  <label for="email">Email</label><br />
+                  <div class="email-subscribe">
+                    <input
+                      class="subscribe-email"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Your working email"
+                    /><button class="subscribe-email-button white">
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+                <form action="#" method="get" class="agreement flex">
+                  <input
+                    type="checkbox"
+                    name="agreement"
+                    id="agreement"
+                  /><label for="agreement"
+                    >I agree to receive communications from Createx
+                    Store.</label
+                  >
+                </form>
+              </div>
+            </div>
+            <div class="subscribe-img-block">
+              <img src="img/subscribe_img.png" alt="" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footbar">
+            <nav class="help footbar-section">
+              <a href="#"><h3 class="footbar-section-title">Help</h3></a>
+              <a href="#" class="footer-item">Delivery & returns</a>
+              <a href="#" class="footer-item">FAQ</a>
+              <a href="#" class="footer-item">Track order</a>
+              <a href="#" class="footer-item">Contacts</a>
+              <a href="#" class="footer-item">Blog</a>
+            </nav>
+            <nav class="shop footbar-section">
+              <a href="#" class="footer-item"
+                ><h3 class="footbar-section-title">Shop</h3></a
+              >
+              <a href="#" class="footer-item">New arrivals</a>
+              <a href="#" class="footer-item">Trending now</a>
+              <a href="#" class="footer-item">Sales</a>
+              <a href="#" class="footer-item">Brands</a>
+            </nav>
+            <nav class="get-in-touch footbar-section">
+              <a href="#"
+                ><h3 class="footbar-section-title">Get in touch</h3></a
+              >
+              <a href="tel:+4055550128" class="footer-item">
+                <span class="white">Call:</span> (405) 555-0128</a
+              >
+              <a href="mailto:hello@createx.com" class="footer-item"
+                ><span class="white">Email:</span> hello@createx.com</a
+              >
+              <div class="socials flex">
+                <div class="socials-item">
+                  <i class="fa-brands fa-facebook-f fa-sm"></i>
+                </div>
+                <div class="socials-item">
+                  <i class="fa-brands fa-instagram fa-sm"></i>
+                </div>
+                <div class="socials-item">
+                  <i class="fa-brands fa-twitter fa-sm"></i>
+                </div>
+                <div class="socials-item">
+                  <i class="fa-brands fa-youtube fa-sm"></i>
+                </div>
+                <div class="socials-item">
+                  <i class="fa-brands fa-pinterest-p fa-sm"></i>
+                </div>
+              </div>
+            </nav>
+            <nav class="app footbar-section flex">
+              <a href="#"
+                ><h3 class="footbar-section-title">Download our app</h3></a
+              >
+              <div class="apps flex">
+                <a href="#" class="app-item"
+                  ><img src="img/apps/app-store.png" alt=""
+                /></a>
+                <a href="#" class="app-item"
+                  ><img src="img/apps/google-play.png" alt=""
+                /></a>
+              </div>
+            </nav>
+          </div>
+          <section class="bottom-footer flex">
+            <div class="copyright">
+              &copy; All rights reserved. Made with
+              <i class="fa-regular fa-heart"></i> by Createx Studio
+            </div>
+            <div class="to-top"><a href="#">Go to top</a></div>
+          </section>
+        </div>
+      </footer>
     </div>
-    <script src="js.js"></script>
+    <script src="JS/js.js"></script>
   </body>
 </html>
