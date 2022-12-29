@@ -176,6 +176,62 @@
         "price": "$ 27.10",
         "rating": [true,true,true,true,true],
         "like": true
+      },
+{
+        "image": "img/arrivals/NA-cap.png",
+        "title": "Black and white sport cap",
+        "price": "$ 18.15",
+        "rating": [true,true,true,true,false],
+        "like": true
+      },
+{
+        "image": "img/arrivals/NA-glasses.png",
+        "title": "Metal bridge sunglasses",
+        "price": "$ 89.95",
+        "rating": [true,true,true,false,false],
+        "like": false
+      },
+{
+        "image": "img/arrivals/NA-sliders.png",
+        "title": "Green baby romper",
+        "price": "$ 20.40",
+        "rating": [true,true,true,true,true],
+        "like": false
+      },
+{
+        "image": "img/arrivals/NA-trousers.png",
+        "title": "Mid-rise slim cropped fit jeans",
+        "price": "$ 58.45",
+        "rating": [true,true,true,true,false],
+        "like": true
+      },
+{
+        "image": "img/arrivals/NA-earrings.png",
+        "title": "Red dangle earrings",
+        "price": "$ 50.67",
+        "rating": [true,true,true,true,false],
+        "like": true
+      },
+{
+        "image": "img/arrivals/skirt.png",
+        "title": "Skirt",
+        "price": "$ 54.50",
+        "rating": [true,true,true,true,false],
+        "like": false
+      },
+      {
+        "image": "img/arrivals/blouse.png",
+        "title": "Yellow Silk Blouse",
+        "price": "$ 70.00",
+        "rating": [true,true,true,true,true],
+        "like": true
+      },
+      {
+        "image": "img/arrivals/fheels.png",
+        "title": "Black Heels With Feather",
+        "price": "$ 120.89",
+        "rating": [true,true,true,false,false],
+        "like": false
       }
     ],
 
